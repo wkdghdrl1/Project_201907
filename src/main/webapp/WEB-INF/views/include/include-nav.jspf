@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="rootPath" value="${pageContext.request.contextPath}" />
+
+<link rel="stylesheet" type="text/css"
+	href="${rootPath}/resources/css/diet-nav.css?ver=20190716">
+
+<nav>
+	<ul class="top-menu">
+		<li><a href='<c:url value = "/notice"/>'>공지사항 &nbsp; &nbsp; </a></li>
+		<li><a href='<c:url value = "/controllmenu"/>'> &nbsp; 식단관리	&nbsp; &nbsp; </a></li>
+		<li><a href='<c:url value = "/tip"/>'>&nbsp; 후기 및 TIP </a></li>
+	</ul>
+</nav>

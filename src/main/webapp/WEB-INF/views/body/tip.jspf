@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="rootPath" value="${pageContext.request.contextPath}" />
+
+<link rel="stylesheet" type="text/css"
+	href="${rootPath}/resources/css/diet-tip.css?ver=20190716">
+	
+	
+<div class="pullbody">
+	<div class="leftbody">
+		<div>
+			<section>
+				<p>후기</p>
+			</section>
+		</div>
+		<div>
+			<section>
+				<p>TIP</p>
+			</section>
+		</div>
+	</div>
+
+	<div >
+		<table>
+			<tr>
+				<th><span>번호</span></th>
+				<th><span>제목</span></th>
+				<th><span>게시일</span></th>
+				<th><span>작성자</span></th>
+
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>4주 후기</td>
+				<td>19/7/14</td>
+				<td>이**</td>
+			</tr>
+
+		</table>
+
+	</div>
+</div>
