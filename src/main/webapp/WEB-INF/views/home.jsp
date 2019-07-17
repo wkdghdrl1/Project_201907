@@ -3,17 +3,18 @@
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+
 <Title>Diet Manager</Title>
 <head>
+
+
 <style>
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 }
-</style>
 
-<link rel="stylesheet" type="text/css"
-	href="${rootPath}/dm/css/book-main.css?ver=20190716">
+</style>
 </head>
 <body>
 	<%@ include file="/WEB-INF/views/include/include-header.jspf"%>

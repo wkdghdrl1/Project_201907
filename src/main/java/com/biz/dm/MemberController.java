@@ -19,7 +19,6 @@ public class MemberController {
 		model.addAttribute("BODY", "CONTROLLMENU");
 		return "home";
 	}
-	
 
 	@RequestMapping(value = "tip", method = RequestMethod.GET)
 	public String tip(Model model) {
